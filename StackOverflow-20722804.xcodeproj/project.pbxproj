@@ -18,7 +18,22 @@
 		2A253E701866591E00EC4A47 /* StackOverflow_20722804.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A253E6E1866591E00EC4A47 /* StackOverflow_20722804.xcdatamodeld */; };
 		2A253E731866591E00EC4A47 /* FHKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A253E721866591E00EC4A47 /* FHKMasterViewController.m */; };
 		2A253E781866591E00EC4A47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A253E771866591E00EC4A47 /* Images.xcassets */; };
+		2AF56A091874443800B7A921 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A253E7E1866591E00EC4A47 /* XCTest.framework */; };
+		2AF56A0A1874443800B7A921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A253E571866591E00EC4A47 /* Foundation.framework */; };
+		2AF56A0B1874443800B7A921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A253E5B1866591E00EC4A47 /* UIKit.framework */; };
+		2AF56A111874443800B7A921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AF56A0F1874443800B7A921 /* InfoPlist.strings */; };
+		2AF56A131874443800B7A921 /* StackOverflow_20722804_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF56A121874443800B7A921 /* StackOverflow_20722804_Tests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AF56A151874443800B7A921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A253E4C1866591E00EC4A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A253E531866591E00EC4A47;
+			remoteInfo = "StackOverflow-20722804";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2A253E541866591E00EC4A47 /* StackOverflow-20722804.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StackOverflow-20722804.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +53,11 @@
 		2A253E721866591E00EC4A47 /* FHKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHKMasterViewController.m; sourceTree = "<group>"; };
 		2A253E771866591E00EC4A47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2A253E7E1866591E00EC4A47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2AF56A081874443800B7A921 /* StackOverflow-20722804 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StackOverflow-20722804 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF56A0E1874443800B7A921 /* StackOverflow-20722804 Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StackOverflow-20722804 Tests-Info.plist"; sourceTree = "<group>"; };
+		2AF56A101874443800B7A921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AF56A121874443800B7A921 /* StackOverflow_20722804_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOverflow_20722804_Tests.m; sourceTree = "<group>"; };
+		2AF56A141874443800B7A921 /* StackOverflow-20722804 Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StackOverflow-20722804 Tests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +72,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2AF56A051874443800B7A921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF56A091874443800B7A921 /* XCTest.framework in Frameworks */,
+				2AF56A0B1874443800B7A921 /* UIKit.framework in Frameworks */,
+				2AF56A0A1874443800B7A921 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				2A253E5F1866591E00EC4A47 /* StackOverflow-20722804 */,
+				2AF56A0C1874443800B7A921 /* StackOverflow-20722804 Tests */,
 				2A253E561866591E00EC4A47 /* Frameworks */,
 				2A253E551866591E00EC4A47 /* Products */,
 			);
@@ -68,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				2A253E541866591E00EC4A47 /* StackOverflow-20722804.app */,
+				2AF56A081874443800B7A921 /* StackOverflow-20722804 Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +142,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2AF56A0C1874443800B7A921 /* StackOverflow-20722804 Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2AF56A121874443800B7A921 /* StackOverflow_20722804_Tests.m */,
+				2AF56A0D1874443800B7A921 /* Supporting Files */,
+			);
+			path = "StackOverflow-20722804 Tests";
+			sourceTree = "<group>";
+		};
+		2AF56A0D1874443800B7A921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AF56A0E1874443800B7A921 /* StackOverflow-20722804 Tests-Info.plist */,
+				2AF56A0F1874443800B7A921 /* InfoPlist.strings */,
+				2AF56A141874443800B7A921 /* StackOverflow-20722804 Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,6 +181,24 @@
 			productReference = 2A253E541866591E00EC4A47 /* StackOverflow-20722804.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2AF56A071874443800B7A921 /* StackOverflow-20722804 Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF56A191874443800B7A921 /* Build configuration list for PBXNativeTarget "StackOverflow-20722804 Tests" */;
+			buildPhases = (
+				2AF56A041874443800B7A921 /* Sources */,
+				2AF56A051874443800B7A921 /* Frameworks */,
+				2AF56A061874443800B7A921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AF56A161874443800B7A921 /* PBXTargetDependency */,
+			);
+			name = "StackOverflow-20722804 Tests";
+			productName = "StackOverflow-20722804 Tests";
+			productReference = 2AF56A081874443800B7A921 /* StackOverflow-20722804 Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -139,6 +208,11 @@
 				CLASSPREFIX = FHK;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Fish Hook LLC";
+				TargetAttributes = {
+					2AF56A071874443800B7A921 = {
+						TestTargetID = 2A253E531866591E00EC4A47;
+					};
+				};
 			};
 			buildConfigurationList = 2A253E4F1866591E00EC4A47 /* Build configuration list for PBXProject "StackOverflow-20722804" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -154,6 +228,7 @@
 			projectRoot = "";
 			targets = (
 				2A253E531866591E00EC4A47 /* StackOverflow-20722804 */,
+				2AF56A071874443800B7A921 /* StackOverflow-20722804 Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -166,6 +241,14 @@
 				2A253E781866591E00EC4A47 /* Images.xcassets in Resources */,
 				2A253E641866591E00EC4A47 /* InfoPlist.strings in Resources */,
 				2A253E6D1866591E00EC4A47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF56A061874443800B7A921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF56A111874443800B7A921 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +266,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2AF56A041874443800B7A921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF56A131874443800B7A921 /* StackOverflow_20722804_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AF56A161874443800B7A921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A253E531866591E00EC4A47 /* StackOverflow-20722804 */;
+			targetProxy = 2AF56A151874443800B7A921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2A253E621866591E00EC4A47 /* InfoPlist.strings */ = {
@@ -200,6 +299,14 @@
 				2A253E6C1866591E00EC4A47 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AF56A0F1874443800B7A921 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF56A101874443800B7A921 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -303,6 +410,48 @@
 			};
 			name = Release;
 		};
+		2AF56A171874443800B7A921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StackOverflow-20722804.app/StackOverflow-20722804";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackOverflow-20722804 Tests/StackOverflow-20722804 Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StackOverflow-20722804 Tests/StackOverflow-20722804 Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2AF56A181874443800B7A921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StackOverflow-20722804.app/StackOverflow-20722804";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackOverflow-20722804 Tests/StackOverflow-20722804 Tests-Prefix.pch";
+				INFOPLIST_FILE = "StackOverflow-20722804 Tests/StackOverflow-20722804 Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +472,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		2AF56A191874443800B7A921 /* Build configuration list for PBXNativeTarget "StackOverflow-20722804 Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF56A171874443800B7A921 /* Debug */,
+				2AF56A181874443800B7A921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
